@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -g   CMakeFiles/MyTest.dir/piczip/huffman_test.cpp.o  -o MyTest ../lib/libgtestd.a ../lib/libgtest_maind.a ../lib/libgtestd.a -lpthread 

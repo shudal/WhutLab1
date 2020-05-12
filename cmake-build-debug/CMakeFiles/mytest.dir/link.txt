@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -g   CMakeFiles/mytest.dir/src/test/piczip/piczip_test.cpp.o  -o mytest lib/libgtestd.a lib/libgtest_maind.a lib/libgtestd.a -lpthread 

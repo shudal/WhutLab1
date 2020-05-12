@@ -1,0 +1,59 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /mnt/c/Users/perci/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_99542/fast"
+make[1]: Entering directory '/mnt/c/Users/perci/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_99542.dir/build.make CMakeFiles/cmTC_99542.dir/build
+make[2]: Entering directory '/mnt/c/Users/perci/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_99542.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_99542.dir/CheckSymbolExists.c.o   -c /mnt/c/Users/perci/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_99542
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99542.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_99542.dir/CheckSymbolExists.c.o  -o cmTC_99542 
+CMakeFiles/cmTC_99542.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_99542.dir/build.make:97: recipe for target 'cmTC_99542' failed
+make[2]: *** [cmTC_99542] Error 1
+make[2]: Leaving directory '/mnt/c/Users/perci/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_99542/fast' failed
+make[1]: *** [cmTC_99542/fast] Error 2
+make[1]: Leaving directory '/mnt/c/Users/perci/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+File /mnt/c/Users/perci/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /mnt/c/Users/perci/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fcfab/fast"
+make[1]: Entering directory '/mnt/c/Users/perci/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fcfab.dir/build.make CMakeFiles/cmTC_fcfab.dir/build
+make[2]: Entering directory '/mnt/c/Users/perci/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fcfab.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_fcfab.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fcfab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcfab.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_fcfab.dir/CheckFunctionExists.c.o  -o cmTC_fcfab -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_fcfab.dir/build.make:97: recipe for target 'cmTC_fcfab' failed
+make[2]: *** [cmTC_fcfab] Error 1
+make[2]: Leaving directory '/mnt/c/Users/perci/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fcfab/fast' failed
+make[1]: *** [cmTC_fcfab/fast] Error 2
+make[1]: Leaving directory '/mnt/c/Users/perci/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+

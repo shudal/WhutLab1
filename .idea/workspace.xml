@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="untitled1" targetName="gmock" />
+      <config projectName="untitled1" targetName="gtest_main" />
+      <config projectName="untitled1" targetName="gtest" />
+      <config projectName="untitled1" targetName="gmock_main" />
+      <config projectName="untitled1" targetName="untitled1" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="80e5ae28-aee3-4eef-af3f-36f648a58f4e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bnPXDniRjbtJDvNhYHLq9C3NOQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="cf.advertisement.text.has.clang-format" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\perci\CLionProjects\untitled1\src\test\piczip" />
+      <recent name="C:\Users\perci\CLionProjects\untitled1\test" />
+      <recent name="C:\Users\perci\CLionProjects\untitled1\googletest" />
+      <recent name="C:\Users\perci\CLionProjects\untitled1\googletest\lib" />
+      <recent name="C:\Users\perci\CLionProjects\untitled1\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.untitled1">
+    <configuration name="piczip.Huffman" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="untitled1" TARGET_NAME="untitled1" RUN_TARGET_PROJECT_NAME="untitled1" RUN_TARGET_NAME="untitled1" TEST_CLASS="piczip" TEST_METHOD="Huffman" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="untitled1" TARGET_NAME="gmock" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="untitled1" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="untitled1" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="untitled1" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="untitled1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="untitled1" TARGET_NAME="untitled1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="untitled1" RUN_TARGET_NAME="untitled1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.untitled1" />
+      <item itemvalue="CMake Application.gmock" />
+      <item itemvalue="CMake Application.gmock_main" />
+      <item itemvalue="CMake Application.gtest" />
+      <item itemvalue="CMake Application.gtest_main" />
+      <item itemvalue="Google Test.piczip.Huffman" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.piczip.Huffman" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80e5ae28-aee3-4eef-af3f-36f648a58f4e" name="Default Changelist" comment="" />
+      <created>1589264921448</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589264921448</updated>
+      <workItem from="1589264925558" duration="28635000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="4" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589281060223">
+      <screen x="0" y="0" width="1097" height="577" />
+    </state>
+    <state x="4" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1097.577@0.0.1097.577" timestamp="1589281060223" />
+    <state x="247" y="0" key="#gtest" timestamp="1589283639165">
+      <screen x="0" y="0" width="1097" height="577" />
+    </state>
+    <state x="247" y="0" key="#gtest/0.0.1097.577@0.0.1097.577" timestamp="1589283639165" />
+    <state width="1054" height="282" key="GridCell.Tab.0.bottom" timestamp="1589294301709">
+      <screen x="0" y="0" width="1097" height="577" />
+    </state>
+    <state width="1054" height="282" key="GridCell.Tab.0.bottom/0.0.1097.577@0.0.1097.577" timestamp="1589294301709" />
+    <state width="1054" height="282" key="GridCell.Tab.0.center" timestamp="1589294301709">
+      <screen x="0" y="0" width="1097" height="577" />
+    </state>
+    <state width="1054" height="282" key="GridCell.Tab.0.center/0.0.1097.577@0.0.1097.577" timestamp="1589294301709" />
+    <state width="1054" height="282" key="GridCell.Tab.0.left" timestamp="1589294301709">
+      <screen x="0" y="0" width="1097" height="577" />
+    </state>
+    <state width="1054" height="282" key="GridCell.Tab.0.left/0.0.1097.577@0.0.1097.577" timestamp="1589294301709" />
+    <state width="1054" height="282" key="GridCell.Tab.0.right" timestamp="1589294301709">
+      <screen x="0" y="0" width="1097" height="577" />
+    </state>
+    <state width="1054" height="282" key="GridCell.Tab.0.right/0.0.1097.577@0.0.1097.577" timestamp="1589294301709" />
+    <state width="1054" height="300" key="GridCell.Tab.1.bottom" timestamp="1589293564439">
+      <screen x="0" y="0" width="1097" height="577" />
+    </state>
+    <state width="1054" height="300" key="GridCell.Tab.1.bottom/0.0.1097.577@0.0.1097.577" timestamp="1589293564439" />
+    <state width="1054" height="300" key="GridCell.Tab.1.center" timestamp="1589293564439">
+      <screen x="0" y="0" width="1097" height="577" />
+    </state>
+    <state width="1054" height="300" key="GridCell.Tab.1.center/0.0.1097.577@0.0.1097.577" timestamp="1589293564439" />
+    <state width="1054" height="300" key="GridCell.Tab.1.left" timestamp="1589293564439">
+      <screen x="0" y="0" width="1097" height="577" />
+    </state>
+    <state width="1054" height="300" key="GridCell.Tab.1.left/0.0.1097.577@0.0.1097.577" timestamp="1589293564439" />
+    <state width="1054" height="300" key="GridCell.Tab.1.right" timestamp="1589293564439">
+      <screen x="0" y="0" width="1097" height="577" />
+    </state>
+    <state width="1054" height="300" key="GridCell.Tab.1.right/0.0.1097.577@0.0.1097.577" timestamp="1589293564439" />
+    <state x="50" y="0" key="SettingsEditor" timestamp="1589283083357">
+      <screen x="0" y="0" width="1097" height="577" />
+    </state>
+    <state x="50" y="0" key="SettingsEditor/0.0.1097.577@0.0.1097.577" timestamp="1589283083357" />
+    <state x="211" y="0" width="672" height="575" key="search.everywhere.popup" timestamp="1589293895663">
+      <screen x="0" y="0" width="1097" height="577" />
+    </state>
+    <state x="211" y="0" width="672" height="575" key="search.everywhere.popup/0.0.1097.577@0.0.1097.577" timestamp="1589293895663" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/piczip/main.cpp</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/piczip/Huffman.cpp</url>
+          <line>19</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/piczip/PhotoCompressionByHuffman.cpp</url>
+          <line>84</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/piczip/PhotoCompressionByHuffman.cpp</url>
+          <line>59</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/piczip/PhotoCompressionByHuffman.cpp</url>
+          <line>44</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
