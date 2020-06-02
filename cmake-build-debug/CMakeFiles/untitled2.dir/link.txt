@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -g   CMakeFiles/untitled2.dir/main.cpp.o CMakeFiles/untitled2.dir/MyGraph.cpp.o  -o untitled2 

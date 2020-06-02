@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/perci/CLionProjects/untitled2/MyGraph.cpp
+MyGraph.h
+/mnt/c/Users/perci/CLionProjects/untitled2/MyGraph.h
+iostream
+-
+fstream
+-
+thread
+-
+cstdio
+-
+queue
+-
+stack
+-
+
+/mnt/c/Users/perci/CLionProjects/untitled2/MyGraph.h
+string
+-
+vector
+-
+
+/mnt/c/Users/perci/CLionProjects/untitled2/main.cpp
+iostream
+-
+MyGraph.h
+/mnt/c/Users/perci/CLionProjects/untitled2/MyGraph.h
+
